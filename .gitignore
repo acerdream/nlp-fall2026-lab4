@@ -1,0 +1,29 @@
+# 数据与训练产物（体积大，不提交）
+data/
+output/
+
+# 词向量文件
+*.bin
+*.vec
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX 中间产物
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.lof
+report/*.lot
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.blg
+report/*.bbl
+report/*.xdv
+
+# 系统文件
+.DS_Store
