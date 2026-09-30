@@ -1,0 +1,87 @@
+{
+  "input": "/home/s202411581243/nlp-fall2026-lab4/data/wikipedia-cn-20230720-filtered.json",
+  "output": "/home/s202411581243/nlp-fall2026-lab4/data/corpus.txt",
+  "limit": 0,
+  "documents": 254547,
+  "tokens": 82854433,
+  "types": 1805165,
+  "min_count": 5,
+  "vocab_size": 414976,
+  "elapsed_sec": 237.5,
+  "eval_coverage": {
+    "COS960.txt": {
+      "pairs": 960,
+      "covered_pairs": 801,
+      "unique_words": 1744,
+      "covered_words": 1560,
+      "word_coverage": 0.8945,
+      "oov_examples": [
+        "不知道",
+        "不能理解",
+        "不能解决",
+        "中国央行",
+        "乖觉",
+        "交通肇事逃逸",
+        "亮闪闪",
+        "今年年底",
+        "伏身",
+        "俏销",
+        "倔犟",
+        "做秀",
+        "停止销售",
+        "先进工作者",
+        "具有说服力",
+        "创新高",
+        "前轮胎",
+        "北部地区",
+        "半夜三更",
+        "半夜里",
+        "卑鄙无耻",
+        "南部地区",
+        "反剪",
+        "变化万千",
+        "口拙",
+        "口涎",
+        "叱喝",
+        "后轮胎",
+        "吸顶灯",
+        "呛人",
+        "坐相",
+        "多发病",
+        "奖旗",
+        "奸笑",
+        "妇道人家",
+        "妖冶",
+        "妖媚",
+        "孤孤单单",
+        "守本分",
+        "实施犯罪"
+      ]
+    },
+    "wordsim-240.txt": {
+      "pairs": 240,
+      "covered_pairs": 239,
+      "unique_words": 327,
+      "covered_words": 326,
+      "word_coverage": 0.9969,
+      "oov_examples": [
+        "社会调查"
+      ]
+    },
+    "wordsim-297.txt": {
+      "pairs": 297,
+      "covered_pairs": 292,
+      "unique_words": 383,
+      "covered_words": 377,
+      "word_coverage": 0.9843,
+      "oov_examples": [
+        "OPEC",
+        "前情",
+        "心签名",
+        "日本人",
+        "相似度",
+        "美国人"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "vectors": "output/sg_w2.txt",
+  "vocab_size": 414977,
+  "dim": 200,
+  "datasets": {
+    "wordsim-240.txt": {
+      "pairs_total": 240,
+      "pairs_covered": 239,
+      "spearman": 0.5134
+    },
+    "wordsim-297.txt": {
+      "pairs_total": 297,
+      "pairs_covered": 292,
+      "spearman": 0.5668
+    },
+    "COS960.txt": {
+      "pairs_total": 960,
+      "pairs_covered": 801,
+      "spearman": 0.4587
+    }
+  }
+}
